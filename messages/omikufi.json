@@ -1,0 +1,36 @@
+{
+    "type": "template",
+    "altText": "this is a buttons template",
+    "template": {
+      "type": "buttons",
+      "actions": [
+        {
+          "type": "postback",
+          "label": "くじ１",
+          "text": "大吉！",
+          "data": "大吉！"
+        },
+        {
+          "type": "postback",
+          "label": "くじ２",
+          "text": "中吉！",
+          "data": "中吉！"
+        },
+        {
+          "type": "postback",
+          "label": "くじ３",
+          "text": "吉！",
+          "data": "吉！"
+        },
+        {
+          "type": "postback",
+          "label": "くじ４",
+          "text": "小吉！",
+          "data": "小吉！"
+        }
+      ],
+      "thumbnailImageUrl": "https://picsum.photos/200/300",
+      "title": "おみくじ",
+      "text": "好きなものを選んでね"
+    }
+  }

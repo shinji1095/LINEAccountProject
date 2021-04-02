@@ -1,4 +1,21 @@
 extends layout 
 
-block content 
-    
+block content
+    link(rel="stylesheet", href="/css/omikuji.css")
+    script(src="/js/omikuji.js") 
+
+    .container.ly-full-image 
+        .textarea
+            h1.module-text
+            p.module-text 好きなものを選んでね
+
+        .wrapper 
+            .bl-module.module-omikuji
+                a(id="omikuji1") おみくじ１
+            .bl-module.module-omikuji 
+                a(id="omikuji2") おみくじ２
+            .bl-module.module-omikuji
+                a(id="omikuji3") おみくじ３
+            .bl-module.module-omikuji 
+                a(id="omikuji4") おみくじ４
+        

@@ -20,6 +20,7 @@ function handleEvent(event) {
                 if (type !== 'text') {
                     return Promise.resolve(null);
                 }
+
             
                 if (text.includes('疲れた') || text.includes('つかれた') || text.includes('ツカレタ')) {
                     return client.replyMessage(event.replyToken, {
